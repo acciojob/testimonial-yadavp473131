@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+    #main-container{
+            background-color: #f5f5f5;
+            width:80%;
+            height: 100vh;
+            padding:20px;
+        }
+        #main-container h1{
+            padding : 20px 0 0 0px;
+            margin-bottom: 0;
+        }
+        .testimonial{
+            background-color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .test-text{
+            display: inline;
+            width: 70%;
+            margin-left: 0;
+        }
+        .author{
+            width: 20%;
+            display: inline-flex;
+            text-align: right;
+            align-items: flex-end;
+            justify-content: end;
+        }
