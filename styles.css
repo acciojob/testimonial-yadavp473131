@@ -15,6 +15,7 @@
             display: flex;
             justify-content: space-between;
             margin-top: 20px;
+			border: 2px solid black;
         }
         .test-text{
             display: inline;
@@ -28,3 +29,6 @@
             align-items: flex-end;
             justify-content: end;
         }
+        .author cite{
+			font-style: italic;
+		}
